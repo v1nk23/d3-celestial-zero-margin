@@ -40,7 +40,7 @@ Celestial.display = function(config) {
     parent = null; 
   }
    
-  var margin = [16, 16],
+  var margin = [0, 0],
       width = getWidth(),
       canvaswidth = isNumber(cfg.background.width) ? width + cfg.background.width : width,
       pixelRatio = window.devicePixelRatio || 1,
